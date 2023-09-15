@@ -23,7 +23,7 @@ public class IOFileWorker {
 
                 for(File file : listFiles2){
             System.out.println((file.isDirectory() ? "Directory ": "File")+"-"+file.getAbsolutePath());
-            if(file.isDirectory())listDirectoryContent(file); <---list file
+            if(file.isDirectory())listDirectoryContent(file); //<---list file
             
         }
 
